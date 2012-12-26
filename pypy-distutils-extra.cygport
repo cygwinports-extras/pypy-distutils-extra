@@ -1,0 +1,12 @@
+ORIG_PN="python-distutils-extra"
+inherit pypy-distutils
+
+NAME="pypy-distutils-extra"
+VERSION=2.37
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Extensions for PyPy distutils"
+DESCRIPTION="Enables you to easily integrate gettext support, themed icons
+and scrollkeeper based documentation into Python's distutils."
+HOMEPAGE="http://launchpad.net/python-distutils-extra"
+SRC_URI="http://launchpad.net/${ORIG_PN}/trunk/${PV}/+download/${ORIG_PN}-${PV}.tar.gz"
